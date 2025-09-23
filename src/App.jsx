@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-
+      Available/Selected
       <Suspense fallback={<Loader></Loader>}>
         <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
       </Suspense>
