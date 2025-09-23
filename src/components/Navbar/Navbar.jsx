@@ -4,7 +4,7 @@ import dollarLogo from "../../assets/dollar_1.png"
 
 const Navbar = () => {
   return (
-      <div className="navbar lg:max-w-[1200px] max-w-[90%] mx-auto">
+      <div className="navbar lg:max-w-[1200px] max-w-[90%] mx-auto mb-8">
         <div className="flex-1">
           <a className="text-xl">
             <img className="w-[50px]" src={navImg} alt="navbar_logo" />

@@ -42,7 +42,7 @@ const AvailablePlayers = ({ playersPromise }) => {
           </div>
 
           <div className="card-actions mt-4 flex items-center justify-between">
-            <p className="font-bold">Price: USD<span>{player.price}</span></p>
+            <p className="font-bold">Price: $<span>{player.price} USD</span></p>
             <button className="btn">Choose Player</button>
           </div>
         </div>
