@@ -2,6 +2,7 @@
   {
     "image": "https://i.ibb.co.com/3m3YYXT6/Shakib-Al-Hasan.webp",
     "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
     "playing_role": "All-Rounder",
     "rating": 9.5,
     "batting_style": "Left-hand bat",
@@ -11,6 +12,7 @@
   {
     "image": "https://i.ibb.co.com/YBCyRQ8t/Nasir-Hossain.png",
     "name": "Nasir Hossain",
+    "country": "Bangladesh",
     "playing_role": "All-Rounder",
     "rating": 8.0,
     "batting_style": "Right-hand bat",
@@ -20,6 +22,7 @@
   {
     "image": "https://i.ibb.co.com/B2jDqw4K/Aminul-hoque-bijoy.jpg",
     "name": "Anamul Haque Bijoy",
+    "country": "Bangladesh",
     "playing_role": "Wicket-Keeper Batsman",
     "rating": 7.5,
     "batting_style": "Right-hand bat",
@@ -29,6 +32,7 @@
   {
     "image": "https://i.ibb.co.com/vCxbqNCt/Nasum-Ahmed.webp",
     "name": "Nasum Ahmed",
+    "country": "Bangladesh",
     "playing_role": "All-Rounder",
     "rating": 7.0,
     "batting_style": "Left-hand bat",
@@ -38,6 +42,7 @@
   {
     "image": "https://i.ibb.co.com/ccK8WXJV/mustafizur-rahman.webp",
     "name": "Mushtafizur Rahman",
+    "country": "Bangladesh",
     "playing_role": "Bowler",
     "rating": 7.2,
     "batting_style": "Left-hand bat",
@@ -47,6 +52,7 @@
   {
     "image": "https://i.ibb.co.com/Y4sTJpmV/Towhid-Hridoy.png",
     "name": "Towhid Hridoy",
+    "country": "Bangladesh",
     "playing_role": "Batsman",
     "rating": 8.1,
     "batting_style": "Right-hand bat",
@@ -56,6 +62,7 @@
   {
     "image": "https://i.ibb.co.com/1Yd8vJnW/Mehedi-Hasan.png",
     "name": "Mahedi Hasan",
+    "country": "Bangladesh",
     "playing_role": "All-Rounder",
     "rating": 8.3,
     "batting_style": "Right-hand bat",
@@ -65,6 +72,7 @@
   {
     "image": "https://i.ibb.co.com/XxTCJBHJ/nurul-hasan-sohan.png",
     "name": "Nurul Hasan Sohan",
+    "country": "Bangladesh",
     "playing_role": "Wicket-Keeper Batsman",
     "rating": 8.0,
     "batting_style": "Right-hand bat",
@@ -74,6 +82,7 @@
   {
     "image": "https://i.ibb.co.com/xt0HYxH6/Rishad-Hossain.jpg",
     "name": "Rishad Hossain",
+    "country": "Bangladesh",
     "playing_role": "All-Rounder",
     "rating": 7.7,
     "batting_style": "Right-hand bat",
@@ -83,6 +92,7 @@
   {
     "image": "https://i.ibb.co.com/991Gjrcd/Nahid-Rana.jpg",
     "name": "Nahid Rana",
+    "country": "Bangladesh",
     "playing_role": "Bowler",
     "rating": 7.5,
     "batting_style": "Right-hand bat",
@@ -92,6 +102,7 @@
   {
     "image": "https://i.ibb.co.com/chJH1ZXT/jos-buttler.webp",
     "name": "Jos Buttler",
+    "country": "England",
     "playing_role": "Wicket-Keeper Batsman",
     "rating": 9.4,
     "batting_style": "Right-hand bat",
@@ -101,6 +112,7 @@
   {
     "image": "https://i.ibb.co.com/C3y3DpD5/Andrew-Russell.webp",
     "name": "Andre Russell",
+    "country": "West-Indies",
     "playing_role": "All-Rounder",
     "rating": 9.2,
     "batting_style": "Right-hand bat",
