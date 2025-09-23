@@ -7,7 +7,7 @@
     "rating": 9.5,
     "batting_style": "Left-hand bat",
     "bowling_style": "Slow left-arm orthodox",
-    "price": 8000000
+    "price": 820000
   },
   {
     "image": "https://i.ibb.co.com/YBCyRQ8t/Nasir-Hossain.png",
@@ -17,7 +17,7 @@
     "rating": 8.0,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm off-break",
-    "price": 2000000
+    "price": 410000
   },
   {
     "image": "https://i.ibb.co.com/B2jDqw4K/Aminul-hoque-bijoy.jpg",
@@ -27,7 +27,7 @@
     "rating": 7.5,
     "batting_style": "Right-hand bat",
     "bowling_style": "None",
-    "price": 2000000
+    "price": 350000
   },
   {
     "image": "https://i.ibb.co.com/vCxbqNCt/Nasum-Ahmed.webp",
@@ -37,7 +37,7 @@
     "rating": 7.0,
     "batting_style": "Left-hand bat",
     "bowling_style": "Left-arm off-break",
-    "price": 2000000
+    "price": 220000
   },
   {
     "image": "https://i.ibb.co.com/k6wXtJS8/Mustafizur-Rahman.webp",
@@ -47,7 +47,7 @@
     "rating": 9.2,
     "batting_style": "Left-hand bat",
     "bowling_style": "Left-arm fast-medium",
-    "price": 2000000
+    "price": 540000
   },
   {
     "image": "https://i.ibb.co.com/Y4sTJpmV/Towhid-Hridoy.png",
@@ -57,7 +57,7 @@
     "rating": 8.1,
     "batting_style": "Right-hand bat",
     "bowling_style": "None",
-    "price": 3000000
+    "price": 400000
   },
   {
     "image": "https://i.ibb.co.com/1Yd8vJnW/Mehedi-Hasan.png",
@@ -67,7 +67,7 @@
     "rating": 8.3,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm off-break",
-    "price": 3000000
+    "price": 200000
   },
   {
     "image": "https://i.ibb.co.com/XxTCJBHJ/nurul-hasan-sohan.png",
@@ -77,7 +77,7 @@
     "rating": 8.0,
     "batting_style": "Right-hand bat",
     "bowling_style": "None",
-    "price": 3000000
+    "price": 220000
   },
   {
     "image": "https://i.ibb.co.com/xt0HYxH6/Rishad-Hossain.jpg",
@@ -87,7 +87,7 @@
     "rating": 7.7,
     "batting_style": "Right-hand bat",
     "bowling_style": "Legbreak Googly",
-    "price": 2000000
+    "price": 240000
   },
   {
     "image": "https://i.ibb.co.com/991Gjrcd/Nahid-Rana.jpg",
@@ -97,7 +97,7 @@
     "rating": 7.5,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": 2000000
+    "price": 200000
   },
   {
     "image": "https://i.ibb.co.com/chJH1ZXT/jos-buttler.webp",
@@ -107,7 +107,7 @@
     "rating": 9.4,
     "batting_style": "Right-hand bat",
     "bowling_style": "None",
-    "price": 3000000
+    "price": 600000
   },
   {
     "image": "https://i.ibb.co.com/C3y3DpD5/Andrew-Russell.webp",
@@ -117,6 +117,6 @@
     "rating": 9.2,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast-medium",
-    "price": 3000000
+    "price": 550000
   }
 ]
