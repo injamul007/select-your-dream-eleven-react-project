@@ -57,7 +57,9 @@ function App() {
         </Suspense>
       ) : (
         <SelectedPlayers purchasedPlayers={purchasedPlayers}
-        removePlayer={removePlayer}></SelectedPlayers>
+        removePlayer={removePlayer}
+        setToggle={setToggle}
+        ></SelectedPlayers>
       )}
 
       <ToastContainer />
