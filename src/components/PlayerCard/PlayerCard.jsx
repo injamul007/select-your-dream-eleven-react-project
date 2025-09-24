@@ -2,18 +2,20 @@ import React, { useState } from "react";
 import userImg from "../../assets/Group.png"
 import flagImg from "../../assets/report_1.png"
 
-const PlayerCard = ({player, setAvailableBalance, availableBalance}) => {
+const PlayerCard = ({player, setAvailableBalance, availableBalance, purchasedPlayers, setPurchasedPlayers}) => {
   const [isSelected, setIsSelected] = useState(false)
 
   const {image, name, country, rating, playing_role, batting_style,bowling_style, price} = player;
 
-  const handleIsSelected = () => {
+  const handleIsSelected = (playerData) => {
     if(availableBalance < price) {
       alert('Not Enough Coins');
       return;
     }
     setIsSelected(true)
     setAvailableBalance(availableBalance - price)
+
+    setPurchasedPlayers([...purchasedPlayers, playerData])
   }
 
   return (
@@ -54,7 +56,7 @@ const PlayerCard = ({player, setAvailableBalance, availableBalance}) => {
           <p className="font-bold">
             Price: $<span>{price} USD</span>
           </p>
-          <button disabled={isSelected} className='btn' onClick={handleIsSelected}>{isSelected? 'Selected': 'Choose Player'}</button>
+          <button disabled={isSelected} className='btn' onClick={()=>handleIsSelected(player)}>{isSelected? 'Selected': 'Choose Player'}</button>
         </div>
       </div>
     </div>

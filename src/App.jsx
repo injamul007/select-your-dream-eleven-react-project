@@ -14,7 +14,8 @@ const playersPromise = fetchPlayersPromise();
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(3000000)
+  const [availableBalance, setAvailableBalance] = useState(3000000);
+  const [purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   return (
     <>
@@ -30,7 +31,7 @@ function App() {
             Available
           </button>
           <button className={`py-2 px-4 border-1 border-gray-200 rounded-r-lg border-l-0 cursor-pointer ${toggle === false ? 'bg-[#e7fe29]':'bg-[none]'}`} onClick={()=>setToggle(false)}>
-            Selected <span>(0)</span>
+            Selected <span>({purchasedPlayers.length})</span>
           </button>
         </div>
       </div>
@@ -39,10 +40,13 @@ function App() {
         <Suspense fallback={<Loader></Loader>}>
           <AvailablePlayers playersPromise={playersPromise}
           setAvailableBalance={setAvailableBalance}
-          availableBalance={availableBalance}></AvailablePlayers>
+          availableBalance={availableBalance}
+          purchasedPlayers={purchasedPlayers}
+          setPurchasedPlayers={setPurchasedPlayers}
+          ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers></SelectedPlayers>
+        <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
       )}
     </>
   );
