@@ -1,10 +1,16 @@
 import React from 'react';
+import SelectedCard from '../SelectedCard/SelectedCard';
 
-const SelectedPlayers = ({purchasedPlayers}) => {
-  console.log(purchasedPlayers)
+
+const SelectedPlayers = ({purchasedPlayers, removePlayer}) => {
+
   return (
     <div className='lg:max-w-[1200px] max-w-[90%] mx-auto'>
-      Selected
+      {
+        purchasedPlayers.map(player => <SelectedCard key={player.name} player={player}
+        removePlayer={removePlayer}></SelectedCard>)
+      }
+      <button className="btn mt-8 bg-amber-300">Add More Player</button>
     </div>
   );
 };

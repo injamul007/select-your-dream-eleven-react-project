@@ -9,7 +9,7 @@ const AvailablePlayers = ({ playersPromise, setAvailableBalance, availableBalanc
     <div className="lg:max-w-[1200px] max-w-[90%] mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
 
       {
-        playersData.map(player => <PlayerCard player={player}
+        playersData.map(player => <PlayerCard key={player.name} player={player}
         setAvailableBalance={setAvailableBalance}
         availableBalance={availableBalance}
         purchasedPlayers={purchasedPlayers}
