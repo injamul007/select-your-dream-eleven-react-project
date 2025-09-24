@@ -1,5 +1,8 @@
+import React from "react";
 import { Suspense, useState } from "react";
 import "./App.css";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import Navbar from "./components/Navbar/Navbar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
@@ -14,7 +17,7 @@ const playersPromise = fetchPlayersPromise();
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(3000000);
+  const [availableBalance, setAvailableBalance] = useState(30000000);
   const [purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   const removePlayer = (p) => {
@@ -56,6 +59,8 @@ function App() {
         <SelectedPlayers purchasedPlayers={purchasedPlayers}
         removePlayer={removePlayer}></SelectedPlayers>
       )}
+
+      <ToastContainer />
     </>
   );
 }
